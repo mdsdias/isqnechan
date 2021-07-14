@@ -6,5 +6,5 @@ import (
 )
 
 func main(w http.ResponseWriter) {
-	fmt.Fprintf("Olá, Mundo!")
+	fmt.Fprintf("Ola, Mundo!")
 }
