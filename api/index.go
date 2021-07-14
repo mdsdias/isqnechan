@@ -1,7 +1,10 @@
+package main
+
 import (
+	"net/http"
 	"fmt"
 )
 
-func main() {
-	fmt.Println("Olá, Mundo!")
+func main(w http.ResponseWriter) {
+	fmt.Fprintf("Olá, Mundo!")
 }
