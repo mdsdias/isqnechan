@@ -13,6 +13,7 @@ function App() {
     getDate();
   }, []);
   return (
+    <body>
     <main>
       <h1>Create React App + Go API</h1>
       <h2>
@@ -51,6 +52,7 @@ function App() {
       <h2>The date according to Go is:</h2>
       <p>{date ? date : 'Loading date...'}</p>
     </main>
+    </body>
   );
 }
 
