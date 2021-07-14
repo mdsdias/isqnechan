@@ -11,6 +11,7 @@ main {
   min-height: 100vh;
   padding: 72px 0;
   text-align: center;
+  background-color: #333;
 }
 h1 {
   font-size: 45px;
