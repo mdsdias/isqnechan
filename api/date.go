@@ -7,6 +7,6 @@ import (
 )
 
 func Handler(w http.ResponseWriter, r *http.Request) {
-	currentTime := time.Now().Format(time('BRT'))
+	currentTime := time.Now()
 	fmt.Fprintf(w, currentTime)
 }
