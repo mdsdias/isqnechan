@@ -1,9 +1,9 @@
 main {
-  align-content: center;
+  align-content: left;
   box-sizing: border-box;
   display: grid;
   font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
-    'Arial', sans-serif;
+    'Arial', sans-serif, #fff;
   hyphens: auto;
   line-height: 1.65;
   margin: 0 auto;
@@ -12,6 +12,11 @@ main {
   padding: 72px 0;
   text-align: center;
 }
+
+body {
+  background-image: url('https://1.bp.blogspot.com/-fIROoxva7b8/XrZE9eSiHlI/AAAAAAAAu6U/TlHAHRi7OPo6o2WTwDmc7NDjl338swf1QCLcBGAsYHQ/s2560/rocks_water_clouds_168832_2560x1440.jpg');
+}
+
 h1 {
   font-size: 45px;
 }

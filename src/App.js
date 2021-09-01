@@ -3,10 +3,14 @@ import './App.css';
 
 function App() {
   return (
-    <main>
-      <h2>Bem vindo ao IsqneSite!</h2>
-      <h3>É isso por agora :D</h3>
-    </main>
+    <body>
+      <main>
+        <h2>Isqneeh</h2>
+        <br />
+        <h3>repo:</h3><code>Isqneeh/isqnechan</code>
+        <br />
+      </main>
+    </body>
   )
 }
 
