@@ -6,9 +6,9 @@ function App() {
   return (
     <main>
       <h2>Bem vindo ao IsqneSite!<h2>
-        <h3>É isso por agora :D</h3>
+      <h3>É isso por agora :D</h3>
     </main>
-  );
+  )
 }
 
 export default App;
