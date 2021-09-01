@@ -14,12 +14,9 @@ function App() {
   }, []);
   return (
     <main>
-      <h1>Create React App + Go API</h1>
-      <h2>
-        Bem vindo ao IsqneSite!
-      </h2>
+      <h2>Bem vindo ao IsqneSite!<h2>
       <br />
-      <h2>The date according to Go is:</h2>
+      <h2>Usando a API do .Go, a hora é:</h2>
       <p>{date ? date : 'Carregando a data...'}</p>
     </main>
   );
