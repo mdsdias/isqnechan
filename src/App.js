@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
- []);
   return (
     <main>
       <h2>Bem vindo ao IsqneSite!<h2>
