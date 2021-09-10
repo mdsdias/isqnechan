@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/atzu.css" />
+    <title> Isqne | Index </title>
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="jumper"></div>
+        <div class="jumper"></div>
+        <div class="jumper"></div>
+    </div>
+    <div align="middle">
+        <div class="container">
+            <h1> Oi, me chamo Isqne<span class="waving-hand"><img width="40px" height="40px" src="assets/img/wavinghand.png"></span>!</h1>
+            {% for i in pro %}
+                <div class="Container blur">
+                    <h2><a href="{{i.url}}">{{i.name}}</a></h2>
+                    <span class="about-desc"></span>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+
+</html>

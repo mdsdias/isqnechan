@@ -1628,15 +1628,9 @@ p {
   size: 30px;
 }
 
-#spotify {
-  width: 500px;
-  height: 150px;
-  size: 30px;
-} 
-
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(145deg, #3f51f4 0%, #f15a55 100%);
+  /* background-image: linear-gradient(145deg, #3f51f4 0%, #f15a55 100%); */
   left: 0;
   right: 0;
   top: 0;
@@ -1677,4 +1671,8 @@ p {
   100% {
     opacity: 0;
   }
+}
+
+.blur {
+  backdrop-filter: blur(10px) !important;
 }

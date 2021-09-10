@@ -6,64 +6,16 @@ h1 {
   font-size:40px;
 }
 
-.rainbow {
-  
-   /* Font options */
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size:40px;
-  
-   /* Chrome, Safari, Opera */
-  -webkit-animation: rainbow 10s infinite; 
-  
-  /* Internet Explorer */
-  -ms-animation: rainbow 10s infinite;
-  
-  /* Standar Syntax */
-  animation: rainbow 10s infinite; 
+#shadowBox {
+  width: 35%;
+  height: 35%;
+  background-color: linear-gradient(160deg, #00ff003f 0%, #00751941 100%);
 }
 
-/* Chrome, Safari, Opera */
-@-webkit-keyframes rainbow{
-  0%{color: orange;}	
-  10%{color: purple;}	
-	20%{color: red;}
-  30%{color: CadetBlue;}
-	40%{color: yellow;}
-  50%{color: coral;}
-	60%{color: green;}
-  70%{color: cyan;}
-  80%{color: DeepPink;}
-  90%{color: DodgerBlue;}
-	100%{color: orange;}
-}
-
-/* Internet Explorer */
-@-ms-keyframes rainbow{
-   0%{color: orange;}	
-  10%{color: purple;}	
-	20%{color: red;}
-  30%{color: CadetBlue;}
-	40%{color: yellow;}
-  50%{color: coral;}
-	60%{color: green;}
-  70%{color: cyan;}
-  80%{color: DeepPink;}
-  90%{color: DodgerBlue;}
-	100%{color: orange;}
-}
-
-/* Standar Syntax */
-@keyframes rainbow{
-    0%{color: rgb(255, 166, 0);}	
-  10%{color: rgb(255, 0, 255);}	
-	20%{color: rgb(255, 0, 0);}
-  30%{color: rgb(0, 247, 255);}
-	40%{color: rgb(255, 255, 0);}
-  50%{color: rgb(255, 68, 0);}
-	60%{color: rgb(0, 255, 0);}
-  70%{color: rgb(0, 255, 255);}
-  80%{color: rgb(255, 0, 136);}
-  90%{color: rgb(0, 128, 255);}
-	100%{color: orange;}
+.waving-hand {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
 }
