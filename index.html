@@ -20,7 +20,7 @@
             {% for i in pro %}
                 <div class="Container blur">
                     <h2><a href="{{i.url}}">{{i.name}}</a></h2>
-                    <span class="about-desc"></span>
+                    <h3 class="about-desc">{{ i.desc }}</h3>
                 </div>
             {% endfor %}
         </div>
