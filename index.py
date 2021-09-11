@@ -20,3 +20,4 @@ def index():
     }
     render_template('index.html', **main)
 
+isq.run('0.0.0.0', 8080)
