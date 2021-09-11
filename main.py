@@ -5,7 +5,7 @@ isq = Flask(__name__)
 @isq.route('/')
 def __init__():
     load = {
-        "pro": [
+        "projetos": [
             {"name": "GrabberTool", 
              "url":"http://github.com/Isqneeh/GrabberTool",
              "desc":"Uma ferramenta feita para puxar dados de pessoas fisicas."

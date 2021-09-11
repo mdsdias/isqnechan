@@ -17,12 +17,12 @@
     <div align="middle">
         <div class="container">
             <h1> Oi, me chamo Isqne<span class="waving-hand"><img width="40px" height="40px" src="assets/img/wavinghand.png"></span>!</h1>
-            {%- for i in pro -%}
+            {% for i in projetos %}
                 <div class="Container blur">
                     <h2><a href="{{i.url}}">{{i.name}}</a></h2>
                     <h3 class="about-desc">{{ i.desc }}</h3>
                 </div>
-            {%- endfor %}
+            {% endfor %}
         </div>
     </div>
 </body>
