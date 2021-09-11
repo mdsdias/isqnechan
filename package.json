@@ -1,0 +1,19 @@
+{
+  "name": "isqnechan",
+  "version": "1.0.0",
+  "description": "<h1> Hello  </h1>",
+  "main": "index.py",
+  "scripts": {
+    "test": "python3 index.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isqneeh/isqnechan.git"
+  },
+  "author": "isqneeh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Isqneeh/isqnechan/issues"
+  },
+  "homepage": "https://github.com/Isqneeh/isqnechan#readme"
+}
