@@ -1,8 +1,8 @@
 from flask import render_template, Flask
 
-isq = Flask(__name__)
+app = Flask(__name__)
 
-@isq.route("/", methods=['GET'])
+@app.route("/")
 def index():
     main = {
         "projetos": [
@@ -18,6 +18,6 @@ def index():
             }
         ]
     }
-    render_template('index.html', **main)
+    return render_template('index.html', **main)
 
-isq.run('0.0.0.0', 8080)
+app.run('0.0.0.0', 8080)
