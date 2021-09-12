@@ -20,4 +20,4 @@ def index():
     }
     return render_template('index.html', **main)
 
-app.run('0.0.0.0', 8080)
+app.run('0.0.0.0', 8080, debug=True)
