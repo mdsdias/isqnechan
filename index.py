@@ -4,8 +4,7 @@ app = Flask(__name__, template_folder="./")
 
 @app.route("/")
 def index():
-    main = {
-        "projetos": [
+    main = [
             {
                 "name": "GrabberTool",
                 "url":"http://github.com/Isqneeh/GrabberTool",
@@ -17,7 +16,6 @@ def index():
                 "desc":"Uma API POST Simples usando a biblioteca Flask; A API não contem muitos dados mais breve pretendo trazer mais"
             }
         ]
-    }
     return render_template('index.html', **main)
 
 app.run('0.0.0.0', 8080, debug=True)
