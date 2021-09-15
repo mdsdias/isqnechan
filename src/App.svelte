@@ -1,8 +1,3 @@
-<div id="preloader">
-  <div class="jumper"></div>
-  <div class="jumper"></div>
-  <div class="jumper"></div>
-</div>
 <script>
   let midias = [
     {
