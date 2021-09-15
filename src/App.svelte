@@ -1,35 +1,43 @@
+<div id="preloader">
+  <div class="jumper"></div>
+  <div class="jumper"></div>
+  <div class="jumper"></div>
+</div>
 <script>
-  let texts = true
-  let projetos = [
-  {
-      "name":"Grabbertool",
-      "desc":"Ferramenta para puxar dados de pessoas fisicas"
-  },
-  {
-    "name":"BuscaPlacaAPI",
-    "desc":"Uma API POST Simples usando a biblioteca Flask; A API não contem muitos dados mais breve pretendo trazer mais"
-  }
-  ]
-  let range = 5
- function txts(event) {
-    if (texts) {
-      texts = false;
-    } else {
-      texts = true;
-    }
-  }
+  let midias = [
+    {
+      name: "Twitter",
+      id: "@Isqneeh",
+      url: "https://twitter.com/isqneeh",
+    },
+    {
+      name: "Github",
+      id: "Isqneeh",
+      url: "https://github.com/isqneeh",
+    },
+    {
+      name: "Discord",
+      id: "Isqne#0719",
+      url: "https://discord.com/users/783058100482867234",
+    },
+  ];
+  let src = "https://avatars.githubusercontent.com/u/79223936?v=4";
 </script>
 
-<button on:click={txts}>
-  Projetos
-</button>
-
-<h1>Hello World, I am Isqne!</h1>
-{#if texts}
-  <h4>
-    {#each projetos as get}
-      <h2>Nome: {get.name}</h2>
-      <h3>Descrição: {get.desc}</h3>
-    {/each}
-  </h4>
-{/if}
+<div class="slides flex-slider flex-container" align="middle">
+  <h1 class="clearfix" align="center">Hello World, I am Isqne!</h1>
+  <img alt="img" {src} class="avatar flexslider" />
+  {#each midias as get}
+    <div class="flex-container">
+      <h2>{get.name}</h2>
+      <h2><a href={get.url} target="_blank">{get.id}</a></h2>
+    </div>
+  {/each}
+</div>
+<style>
+  .avatar {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+  }
+</style>
