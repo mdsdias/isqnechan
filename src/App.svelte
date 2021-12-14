@@ -2,17 +2,17 @@
   let midias = [
     {
       name: "Twitter",
-      id: "@Isqneeh",
-      url: "https://twitter.com/isqneeh",
+      id: "@Legumiih",
+      url: "https://twitter.com/Legumiih",
     },
     {
       name: "Github",
-      id: "Isqneeh",
-      url: "https://github.com/isqneeh",
+      id: "Legumii",
+      url: "https://github.com/legumii",
     },
     {
       name: "Discord",
-      id: "Isqne#0719",
+      id: "legumi#0719",
       url: "https://discord.com/users/783058100482867234",
     },
   ];
