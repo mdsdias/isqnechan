@@ -24,7 +24,8 @@
       class="flex flex-col justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[30px]"
     >
       <img
-        src="rectangle-1.png"
+        {src}
+        alt=""
         class="flex-grow-0 flex-shrink-0 w-[350px] h-[440px] rounded-[49px] object-cover"
       />
       <p
@@ -63,7 +64,7 @@
           class="flex justify-start items-start flex-grow-0 flex-shrink-0 w-[300px] h-[200px] relative overflow-hidden gap-2.5 rounded-[25px] bg-white"
           style="box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.25);"
         >
-          <img src="rectangle-3-3.png" class="self-stretch flex-grow object-cover" />
+          <img src="assets/img/rectangle-3-3.png" class="self-stretch flex-grow object-cover" />
           <p class="flex-grow-0 flex-shrink-0 text-[50px] font-thin text-center text-white">
             westing
           </p>
@@ -72,14 +73,14 @@
           class="flex justify-start items-start flex-grow-0 flex-shrink-0 w-[300px] relative overflow-hidden gap-2.5 rounded-[25px] bg-white"
           style="box-shadow: 0px 4px 4px 0 rgba(0,0,0,0.25);"
         >
-          <img src="rectangle-3.png" class="flex-grow h-[200px] object-cover" />
+          <img src="assets/img/rectangle-3.png" class="flex-grow h-[200px] object-cover" />
           <p class="flex-grow-0 flex-shrink-0 text-[50px] font-thin text-center text-white">tob</p>
         </div>
         <div
           class="flex justify-start items-start flex-grow-0 flex-shrink-0 w-[300px] h-[200px] relative overflow-hidden gap-2.5 rounded-[25px] bg-white"
           style="box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.25);"
         >
-          <img src="rectangle-3-2.png" class="self-stretch flex-grow object-cover" />
+          <img src="assets/img/-3-2.png" class="self-stretch flex-grow object-cover" />
           <p class="flex-grow-0 flex-shrink-0 text-[50px] font-thin text-center text-white">
             GrabberTool
           </p>
@@ -97,7 +98,7 @@
     <div class="flex-grow-0 flex-shrink-0 w-[110px] h-[168px]">
       <div class="flex justify-start items-center absolute left-2.5 top-[477px] gap-[15px]">
         <img
-          src="rectangle-4.png"
+          src="assets/img/rectangle-4.png"
           class="flex-grow-0 flex-shrink-0 w-[100px] h-[100px] rounded-[25px] object-cover"
         />
       </div>
