@@ -24,9 +24,8 @@
       class="flex flex-col justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[30px]"
     >
       <img
-        src="assets/img/rectangle-1.png"
-        alt="av"
-        class="flex-grow-0 flex-shrink-0 w-[350px] h-[440px] rounded-[49px] object-cover"
+        {src}
+        class="flex-grow-0 flex-shrink-0 w-[350px] h-[440px] rounded-full object-cover"
       />
       <p
         class="flex-grow-0 flex-shrink-0 w-[172px] h-[84.54px] text-[50px] font-thin text-center text-white"
@@ -56,6 +55,11 @@
     class="flex flex-col justify-start items-start self-stretch flex-grow relative overflow-hidden gap-2.5 p-2.5 bg-white"
   >
     <div class="flex-grow-0 flex-shrink-0 w-[1168px] h-[281px]">
+      <p
+        class="absolute left-2.5 top-2.5 text-[50px] font-thin text-center text-black"
+      >
+        Projetos
+      </p>
       <div
         class="flex justify-start items-center w-[1168px] absolute left-2.5 top-[79px] gap-2.5 py-1.5"
       >
@@ -64,8 +68,7 @@
           style="box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.25);"
         >
           <img
-            src="assets/img/rectangle-3-2.png"
-            alt="westing"
+            src="rectangle-3-2.png"
             class="self-stretch flex-grow object-cover"
           />
           <p
@@ -78,11 +81,7 @@
           class="flex justify-start items-start flex-grow-0 flex-shrink-0 w-[300px] relative overflow-hidden gap-2.5 rounded-[25px] bg-white"
           style="box-shadow: 0px 4px 4px 0 rgba(0,0,0,0.25);"
         >
-          <img
-            src="assets/img/rectangle-3.png"
-            alt="tob"
-            class="flex-grow h-[200px] object-cover"
-          />
+          <img src="rectangle-3.png" class="flex-grow h-[200px] object-cover" />
           <p
             class="flex-grow-0 flex-shrink-0 text-[50px] font-thin text-center text-white"
           >
@@ -94,8 +93,7 @@
           style="box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.25);"
         >
           <img
-            src="assets/img/rectangle-3-3.png"
-            alt="grabber"
+            src="rectangle-3-3.png"
             class="self-stretch flex-grow object-cover"
           />
           <p
@@ -105,30 +103,26 @@
           </p>
         </div>
       </div>
-      <p
-        class="absolute left-2.5 top-2.5 text-[50px] font-thin text-center text-black"
-      >
-        Projetos
-      </p>
     </div>
     <div class="flex-grow-0 flex-shrink-0 w-[595px] h-[98px]">
-      <p
-        class="absolute left-2.5 top-[370px] text-[25px] font-thin text-center text-black"
-      >
-        Um garoto querendo aprender sobre um pouco de tudo
-      </p>
       <p
         class="absolute left-2.5 top-[301px] text-[50px] font-thin text-center text-black"
       >
         Sobre mim
+      </p>
+      <p
+        class="absolute left-2.5 top-[370px] text-[25px] font-thin text-center text-black"
+      >
+        Um garoto querendo aprender sobre um pouco de tudo
       </p>
     </div>
     <div class="flex-grow-0 flex-shrink-0 w-[110px] h-[168px]">
       <div
         class="flex justify-start items-center absolute left-2.5 top-[477px] gap-[15px]"
       >
-        <div
-          class="flex-grow-0 flex-shrink-0 w-[100px] h-[100px] relative overflow-hidden rounded-[25px] bg-black/20"
+        <img
+          src="rectangle-4.png"
+          class="flex-grow-0 flex-shrink-0 w-[100px] h-[100px] rounded-[25px] object-cover"
         />
       </div>
       <p
