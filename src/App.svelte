@@ -33,13 +33,14 @@
       >
         Legumii
       </p>
-      <div class="flex-grow-0 flex-shrink-0 w-[116px] h-[199.18px]">
+      <div class="w-[116px] h-[199.18px]">
         {#each midias as midia}
           <p
           class="w-[100px] h-[58.75px] absolute left-[125px] top-[584.54px] text-[35px] font-thin text-center text-white"
         >
           <a href="{midia.url}">{midia.name}</a>
         </p>
+        <br>
         {/each}
       </div>
     </div>
@@ -117,7 +118,7 @@
         <img
           src="assets/img/rectangle-4.png"
           alt=""
-          class="flex-grow-0 flex-shrink-0 w-[100px] h-[100px] rounded-[25px] object-cover"
+          class=" w-[100px] h-[100px] rounded-[25px] object-cover"
         />
       </div>
       <p
@@ -128,3 +129,4 @@
     </div>
   </div>
 </div>
+aaaaaaaaaaaaaaaaaaaaaaaa
