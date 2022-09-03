@@ -25,7 +25,8 @@
     >
       <img
         {src}
-        class="flex-grow-0 flex-shrink-0 w-[350px] h-[440px] rounded-full object-cover"
+        alt="avatar"
+        class="flex-grow-0 flex-shrink-0 w-[350px] h-[440px] rounded-[49px] object-cover"
       />
       <p
         class="flex-grow-0 flex-shrink-0 w-[172px] h-[84.54px] text-[50px] font-thin text-center text-white"
@@ -33,21 +34,13 @@
         Legumii
       </p>
       <div class="flex-grow-0 flex-shrink-0 w-[116px] h-[199.18px]">
-        <p
+        {#each midias as midia}
+          <p
           class="w-[100px] h-[58.75px] absolute left-[125px] top-[584.54px] text-[35px] font-thin text-center text-white"
         >
-          Github
+          <a href="{midia.url}">{midia.name}</a>
         </p>
-        <p
-          class="w-[106px] h-[58.75px] absolute left-[122px] top-[654.76px] text-[35px] font-thin text-center text-white"
-        >
-          Twitter
-        </p>
-        <p
-          class="w-[116px] h-[58.75px] absolute left-[117px] top-[724.97px] text-[35px] font-thin text-center text-white"
-        >
-          Discord
-        </p>
+        {/each}
       </div>
     </div>
   </div>
@@ -93,7 +86,8 @@
           style="box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.25);"
         >
           <img
-            src="rectangle-3-3.png"
+            src="assets/img/rectangle-3-3.png"
+            alt=""
             class="self-stretch flex-grow object-cover"
           />
           <p
@@ -121,7 +115,8 @@
         class="flex justify-start items-center absolute left-2.5 top-[477px] gap-[15px]"
       >
         <img
-          src="rectangle-4.png"
+          src="assets/img/rectangle-4.png"
+          alt=""
           class="flex-grow-0 flex-shrink-0 w-[100px] h-[100px] rounded-[25px] object-cover"
         />
       </div>
